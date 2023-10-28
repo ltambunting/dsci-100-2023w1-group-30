@@ -1,4 +1,4 @@
-# dsci-100-project_template
+# dsci-100-project_proposal
 Template project repository for DSCI-100
 "Player Stats for Top 500 Players" on the Ultimate Tennis Statistics (UTS) website provides comprehensive statistical information about 
 the top 500 professional tennis players in the world. These player statistics offer valuable insights into the performance, strengths, 
