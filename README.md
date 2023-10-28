@@ -50,3 +50,4 @@ In this process, we will also let R to help us to find the best value of k and f
 In the end, we will use the plots 1-4 to identify which three variables have a stronger influence on the result of best rank, then create a dot graph using those three variables, and use it to predict a new observation's possible best rank.
 
 Expected outcomes and significance:
+From the preliminary data, we expect to find an inverse relationship between age and BestRank; more popular tennis-playing countries (eg. USA, Spain, etc.) might have more players with top rankings; the use of backhand and best rank might not correlate as they might depend on the comfort of the player.
