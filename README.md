@@ -8,8 +8,12 @@ Problem: 1. What is the relationship between the age of tennis athletes an their
          2. Which country/athlete contains the best rank. 
          3. What is the relationship between the use of backhand and the best rank?
          4. Are the left-handed athletes get relatively higher average best ranks, or do the right-handed athletes?
-         5. Is we are provided with a new observation which includes the country, backhand, play-hand, and age of the athlete, 
-            what best-rank is most possibly be achieved by him/her?
+         5. (1)If we are provided with a new observation which includes the country of the athlete, what best-rank is most possibly be achieved by him/her?
+            (2)If we are provided with a new observation which includes the backhand of the athlete, what best-rank is most possibly be achieved by him/her?
+            (3)If we are provided with a new observation which includes the play-hand of the athlete, what best-rank is most possibly be achieved by him/her?
+            (4)If we are provided with a new observation which includes the age of the athlete, what best-rank is most possibly be achieved by him/her?
+            (5)If we are provided with a new observation which includes the country, backhand, play-hand, and age of the athlete, what best-rank is most possibly be achieved by him/her?
+            Are the results for each question different? Which one is more precise?
 Data set: Our data set has 501 rows and 6 columns which are chosen from the original 38 columns. The 6 columns are Age, 
 Country, Plays, Name, BestRank, and Backhand, respectively. All of them will be used to complete the further classification and 
 prediction problems.
