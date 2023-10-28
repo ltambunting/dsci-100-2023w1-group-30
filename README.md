@@ -1,5 +1,6 @@
 # dsci-100-project_proposal
 Template project repository for DSCI-100
+
 "Player Stats for Top 500 Players" on the Ultimate Tennis Statistics (UTS) website provides comprehensive statistical information about 
 the top 500 professional tennis players in the world. These player statistics offer valuable insights into the performance, strengths, 
 and weaknesses of these athletes. 
@@ -12,3 +13,15 @@ Problem: 1. What is the relationship between the age of tennis athletes an their
 Data set: Our data set has 501 rows and 6 columns which are chosen from the original 38 columns. The 6 columns are Age, 
 Country, Plays, Name, BestRank, and Backhand, respectively. All of them will be used to complete the further classification and 
 prediction problems.
+
+Preliminary exploratory data analysis:
+From the url: https://drive.google.com/uc?export=download&id=1_MECmUXZuuILYeEOfonSGqodW6qVdhsSLinks which is an external site, we downloaded the
+data as a ".csv" form data and imported it into the data folder in our jupyter notebook. To read the data, function read_csv("data/player_stats.csv")
+has been used, then it turns out to be tibble with 501 rows and 38 columns. To tudy up the data as well as choose the variables we'd like to utilize,
+we use the code such as: 
+player_data <- read_csv("data/player_stats.csv")|>
+                select(Age,Country,Plays,Name,BestRank,Backhand)|>
+                mutate(BestRank = gsub("\\([^\\)]+\\)", "", BestRank))|>
+                mutate(Age = gsub("\\([^\\)]+\\)", "", Age))|>
+                mutate(Age=as.numeric(Age))|>
+                mutate(BestRank=as.numeric(BestRank))
