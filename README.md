@@ -1,10 +1,10 @@
 # dsci-100-project_proposal
-Template project repository for DSCI-100
+A Predictive Model to Categorize a Tennis Player’s Maximum Potential Rank
 
+Introduction:
+"Player Stats for Top 500 Players" on the Ultimate Tennis Statistics (UTS) website provides comprehensive statistical information about the top 500 professional male tennis players in the world. These player statistics offer valuable insights into the performance, strengths, and weaknesses of these athletes. The aim of our study is to create a classification model using K-nearest neighbors analysis of the UTS data set to determine the main variables that affect the maximum rank a player can achieve in a tennis competition. We aim to answer the question “can a player’s maximum rank be predicted via their age, country of origin, the dominant hand they play, and their backhand method?” 
 
-"Player Stats for Top 500 Players" on the Ultimate Tennis Statistics (UTS) website provides comprehensive statistical information about 
-the top 500 professional tennis players in the world. These player statistics offer valuable insights into the performance, strengths, 
-and weaknesses of these athletes. 
+Preliminary Exploratory Data:
 Problem: 1. What is the relationship between the age of tennis athletes an their best rankings? 
          2. Which country/athlete contains the best rank. 
          3. What is the relationship between the use of backhand and the best rank?
@@ -49,5 +49,7 @@ After that, create a new classifier using country,backhand, play-hand, and age a
 In this process, we will also let R to help us to find the best value of k and fold the data to improve the accuracy of our prediction.
 In the end, we will use the plots 1-4 to identify which three variables have a stronger influence on the result of best rank, then create a dot graph using those three variables, and use it to predict a new observation's possible best rank.
 
-Expected outcomes and significance:
+Expected Outcome and Signfificance:
 From the preliminary data, we expect to find an inverse relationship between age and BestRank; more popular tennis-playing countries (eg. USA, Spain, etc.) might have more players with top rankings; the use of backhand and best rank might not correlate as they might depend on the comfort of the player.
+
+Our findings would be beneficial for predicting how professional tennis players can maximize their training regimen to increase their potential maximum ranking. Future studies should focus on how the same parameters may affect the predicted maximum rank of female tennis players, as the UTS data set used in our study only includes male tennis players. Finally, similar studies could also be applied for other highly competitive sports that are team-oriented, such as basketball, with additional parameters to predict not only the maximum predicted player rank but also maximum predicted rank of various teams.
